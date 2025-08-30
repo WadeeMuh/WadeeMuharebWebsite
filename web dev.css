@@ -1,0 +1,75 @@
+body {
+    background-color: black;
+    margin: 0;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(5, 19.6vw);
+    justify-content: center;
+}
+
+.purple-tile,
+.white-tile,
+.black-tile,
+.purple-tile-left,
+.white-tile-left,
+.black-tile-left,
+.purple-tile-right,
+.white-tile-right,
+.black-tile-right,
+.about-me-button,
+.portfolio-button {
+    width: 19.6vw;
+    height: 19.6vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12vw;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.2s ease-out;
+    text-decoration: none;
+    text-align: center;
+}
+
+.purple-tile,
+.purple-tile-left,
+.purple-tile-right { background-color: #8943eb; color: #fff; }
+
+.white-tile,
+.white-tile-left,
+.white-tile-right { background-color: #fff; color: #000; }
+
+.black-tile,
+.black-tile-left,
+.black-tile-right { background-color: #000; color: #8943eb; }
+
+.purple-tile-left,
+.white-tile-left,
+.black-tile-left { justify-content: flex-start; }
+
+.purple-tile-right,
+.white-tile-right,
+.black-tile-right { justify-content: flex-end; }
+
+.about-me-button {
+    background-color: #8943eb;
+    color: #fff;
+    font-size: 5vw;
+}
+
+.portfolio-button {
+    background-color: #000;
+    color: #8943eb;
+    font-size: 3vw;
+}
+
+.about-me-button:hover { background-color: #6b2dc2; }
+.portfolio-button:hover { background-color: #353535; }
+
+.gamedev-tile:hover, .webdev-tile:hover, .appdev-tile:hover { background-color: #353535; }
+
+.rc1 { width: 50vw; margin-right: 35vw; margin-bottom: 35vw }
+.rc2 { width: 50vw; margin-right: 45vw; margin-bottom: 45vw }
+.rc3 { width: 50vw; margin-right: 35vw; margin-bottom: 12vw }
