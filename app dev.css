@@ -68,6 +68,8 @@ body {
 .about-me-button:hover { background-color: #6b2dc2; }
 .portfolio-button:hover { background-color: #353535; }
 
+.no-underline { text-decoration: none; }
+
 .gamedev-tile:hover, .webdev-tile:hover, .appdev-tile:hover { background-color: #353535; }
 
 .ms1 { width: 90vw; margin-right: 80vw; margin-bottom: 50vw }
