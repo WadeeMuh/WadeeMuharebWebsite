@@ -73,3 +73,36 @@ body {
 .gamedev-tile:hover, .webdev-tile:hover, .appdev-tile:hover { background-color: #353535; }
 
 .ms1 { width: 90vw; margin-right: 80vw; margin-bottom: 50vw }
+
+.top-line {
+    box-shadow: inset 0 2vw 0 rgb(0, 0, 0);
+}
+.bottom-line {
+    box-shadow: inset 0 -2vw 0 rgb(0, 0, 0);
+}
+.left-line {
+    box-shadow: inset 2vw 0 0 rgb(0, 0, 0);
+}
+.right-line {
+    box-shadow: inset -2vw 0 0 rgb(0, 0, 0);
+}
+.top-right-line {
+    box-shadow: inset 0 2vw 0 rgb(0, 0, 0),
+                inset -2vw 0 0 rgb(0, 0, 0);
+}
+.bottom-right-line {
+    box-shadow: inset 0 -2vw 0 rgb(0, 0, 0),
+                inset -2vw 0 0 rgb(0, 0, 0);
+}
+.top-left-line {
+    box-shadow: inset 0 2vw 0 rgb(0, 0, 0),
+                inset 2vw 0 0 rgb(0, 0, 0);
+}
+.bottom-left-line {
+    box-shadow: inset 0 -2vw 0 rgb(0, 0, 0),
+                inset 2vw 0 0 rgb(0, 0, 0);
+}
+.top-bottom-line {
+    box-shadow: inset 0 2vw 0 rgb(0, 0, 0),
+                inset 0 -2vw 0 rgb(0, 0, 0);
+}
